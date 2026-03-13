@@ -4,7 +4,7 @@ provider "aws" {
 
 #tfsec:ignore:aws-s3-enable-bucket-logging
 resource "aws_s3_bucket" "example" {
-  bucket = "balaji-2353-devops1"
+  bucket = "balaji-2353-devops"
 }
 
 resource "aws_s3_bucket_ownership_controls" "example" {
