@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket         = "my-terraform-state-bobby"
+    bucket         = "github-actions-balaji2353"
     region         = "us-west-2"
-    key            = "balaji-2353-devops/terraform.tfstate"
+    key            = "s3-github-actions/terraform.tfstate"
     encrypt = true
   }
   required_version = ">=0.13.0"
